@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Thrailokya Manvitha Buddha - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #2a2a2b;
+            padding: 40px 20px;
+        }
+
+        .resume-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(227, 24, 24, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ed4141, #f95757);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .main-content {
+            display: flex;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            background-color: #ecf0f1;
+            width: 300px;
+            padding: 40px 30px;
+            border-right: 1px solid #bdc3c7;
+        }
+
+        .content {
+            flex: 1;
+            padding: 40px;
+        }
+
+        .section-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #272626;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #fd4d4d;
+            padding-bottom: 5px;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .contact-icon {
+            width: 20px;
+            margin-right: 10px;
+            color: #f33d31;
+            font-weight: bold;
+        }
+
+        .education-item {
+            margin-bottom: 25px;
+        }
+
+        .institution {
+            font-weight: bold;
+            color: #393939;
+            font-size: 1.05em;
+        }
+
+        .degree {
+            color: #292828;
+            margin: 5px 0;
+        }
+
+        .duration, .cgpa {
+            font-size: 0.9em;
+            color: #383838;
+        }
+
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+            font-size: 0.95em;
+        }
+
+        .skills-list li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #832c2c;
+            font-weight: bold;
+        }
+
+        .certification-item {
+            margin-bottom: 15px;
+            font-size: 0.95em;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .certification-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #f95454;
+            font-weight: bold;
+        }
+
+        .work-experience {
+            margin-bottom: 30px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #2c2c2c;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .project-item {
+            margin-bottom: 20px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .project-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #e95252;
+            font-weight: bold;
+            top: 5px;
+        }
+
+        .project-item p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        .accomplishments-item {
+            margin-bottom: 12px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .accomplishments-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #e74e4e;
+            font-weight: bold;
+        }
+
+        .profile-links {
+            margin-top: 20px;
+        }
+
+        .profile-links a {
+            color: #fa5555;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: block;
+            margin-bottom: 8px;
+            word-break: break-all;
+        }
+
+        .profile-links a:hover {
+            text-decoration: underline;
+        }
+
+        .summary-text {
+            text-align: justify;
+            margin-bottom: 20px;
+            line-height: 1.7;
+            color: #464545;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+            
+            body {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>Sri Thrailokya Manvitha Buddha</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>7842542529</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Visakhapatnam, 531173</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>srithraailokyabuddha@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌍</span>
+                        <span>India</span>
+                    </div>
+                </div>
+
+                <div class="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-item">
+                        <div class="institution">VIGNAN'S INSTITUTE OF INFORMATION TECHNOLOGY</div>
+                        <div class="duration">(2023 – 2027)</div>
+                        <div class="degree">Bachelor Of Technology: Computer And Information Sciences</div>
+                        <div class="cgpa">CGPA: 9.50</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="institution">FIITJEE JUNIOR COLLEGE</div>
+                        <div class="duration">(2021 – 2023)</div>
+                        <div class="degree">INTERMEDIATE (MPC)</div>
+                        <div class="cgpa">PERCENTAGE: 97.5%</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="institution">DR.K.K.R.GOWTHAM EM SCHOOL</div>
+                        <div class="duration">Passed out in 2021 (CBSE)</div>
+                        <div class="degree">HIGH SCHOOL EDUCATION</div>
+                        <div class="cgpa">PERCENTAGE: 98%</div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>Programming languages: C, C++, Java, Python, DSA in C</li>
+                        <li>Web development: HTML, CSS, JavaScript</li>
+                        <li>Database management: MySQL, SQL, PHP</li>
+                        <li>React.js, Node.js, MongoDB</li>
+                        <li>Organizational skills</li>
+                        <li>HTTP, Internet fundamentals</li>
+                        <li>Verbal communication</li>
+                        <li>Project management</li>
+                    </ul>
+                </div>
+
+                <div class="certification">
+                    <h2 class="section-title">Certification</h2>
+                    <div class="certification-item">Nasscom certification in Front-end development</div>
+                    <div class="certification-item">Completed a DSA course from Udemy</div>
+                    <div class="certification-item">Recently completed CISCO certification courses: PYTHON ESSENTIALS 1, 2.</div>
+                </div>
+
+                <div class="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <div class="profile-links">
+                        <a href="https://leetcode.com/u/Thrailokya_09/">https://leetcode.com/u/Thrailokya_09/</a>
+                        <a href="https://www.linkedin.com/in/buddha-sri-thrailokya-ab0a2b248/">https://www.linkedin.com/in/buddha-sri-thrailokya-ab0a2b248/</a>
+                        <a href="https://github.com/locky-09">https://github.com/locky-09</a>
+                        <a href="https://www.codechef.com/users/Locky_09">https://www.codechef.com/users/Locky_09</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="summary-text">Innovative Web Development Intern with experience in front-end and back-end development, including HTML5, CSS3, JavaScript, PHP. Strengths include creative problem-solving skills and drive to learn new technologies. Made significant contributions to team projects by utilizing broad knowledge of web design principles and coding best practices.</p>
+                    <p class="summary-text">Excited to connect with people and get involved with any project-building activities, and also interested in organizing and managing tasks and teams. I would love to take the initiative, grab opportunities, and I am interested in literature and writing creative stuff.</p>
+                </div>
+
+                <div class="work-experience">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="job-title">ACTIVITIES AND HONOURS</div>
+                    
+                    <div class="project-item">
+                        <p>I made my first project, Presco, a tailored and customized platform wherein we can check our health profiles and our dear ones' health profiles. It has a special feature to have all our prescriptions in a soft copy, and using OpenCV and other technologies, it reads out the prescriptions and makes a list of all the medications that you have been using, keeping a record of them. Currently working on the detailing of the prescription input part.</p>
+                    </div>
+                    
+                    <div class="project-item">
+                        <p>Recently, we completed our project, Auto-toll payment generation, wherein we created a website that is to be further integrated with the sensors, microcontrollers, and other hardware devices that detect vehicles approaching the toll from a distance of 40 m. Now, once they detect the vehicle, we read the number plate from the installed CC/IP cameras using OpenCV and OCR, MongoDB, and frontend and backend technologies, created a multi-user login website with authentication and other features where a user can add their vehicles and set a payment method, using which they receive a request in their mobile for toll payment at a distance of 20 m from the toll, and this can further save time, fuel, and create a sustainable environment near the tolls. This can be further developed to a completely automated toll system.</p>
+                    </div>
+                    
+                    <div class="project-item">
+                        <p>Then, I made a totally new project outline in a new domain of waste management using AI, where we have a picture of the product. Usually, this is applicable for packaged foods, and when we search for the product, it checks the biodegradability and ingredients from the packaging and suggests how suitable it is both to the consumer and to nature. Further, this can also be customized by inputting their medical conditions and a most important factor, which is the consumer's age. This helps users choose wisely and further suggest in how many ways can the packaging of the product be used or disposed in an eco-friendly way and by using this in their shopping process, users collect coins and can redeem them in exchange of small scale eco-friendly products like cups, glasses, bottles and other market based products.</p>
+                    </div>
+                    
+                    <div class="project-item">
+                        <p><strong>Internship experience at VaultofCodes in web DEVELOPMENT, ApexPlanner in PHP, MYSQL.</strong></p>
+                    </div>
+                </div>
+
+                <div class="accomplishments">
+                    <h2 class="section-title">Accomplishments</h2>
+                    <div class="accomplishments-item">Participated in 2 college based national level hackathons: (SUS HACKS-VIIT, BUILD BHARAT-THROUG AI.ML)</div>
+                    <div class="accomplishments-item">I and my team was also selected by our college to represent our college in SIH 2024 and participated in it.</div>
+                    <div class="accomplishments-item">Participated in the ASME project Expo held at the college and made an automatic solar panel cleaning device with easy installation.</div>
+                    <div class="accomplishments-item">Currently, I am an active member of the GFG coding club in our college as an event lead.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
